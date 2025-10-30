@@ -26,7 +26,6 @@ class Solution {
         cnt++;
         max = node.val;
       }
-      console.log(node.val, max, cnt);
 
       calculateGood(node.left, max);
       calculateGood(node.right, max);
